@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  test_project:
+    build: test_project
+    ports:
+      - "5000:5000"
+
+  jenkins_instance:
+    build: jenkins_instance
+    ports:
+      - "5000:5000"
